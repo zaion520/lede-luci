@@ -1,9 +1,9 @@
 #!/bin/sh
 
 uci -q batch <<-EOF >/dev/null
-	delete ucitrack.@ngrokc[-1]
-	add ucitrack ngrokc
-	set ucitrack.@ngrokc[-1].init=ngrokc
+	delete ucitrack.@n2n_v2[-1]
+	add ucitrack n2n_v2
+	set ucitrack.@n2n_v2[-1].init=n2n_v2
 	commit ucitrack
 EOF
 
