@@ -220,7 +220,7 @@ msgid "Additional Hosts files"
 msgstr "额外的HOSTS文件"
 
 msgid "Additional servers file"
-msgstr ""
+msgstr "额外的服务器解析文件"
 
 msgid "Address"
 msgstr "地址"
@@ -376,7 +376,7 @@ msgstr "分配接口..."
 
 msgid ""
 "Assign prefix parts using this hexadecimal subprefix ID for this interface."
-msgstr ""
+msgstr "为此接口使用的十六进制子前缀ID指定前缀部分"
 
 msgid "Associated Stations"
 msgstr "已连接站点"
@@ -398,6 +398,9 @@ msgstr "授权的唯一DHCP服务器"
 
 msgid "Authorization Required"
 msgstr "需要授权"
+
+msgid "auto"
+msgstr "自动"
 
 msgid "Auto Refresh"
 msgstr "自动刷新"
@@ -732,7 +735,7 @@ msgid "DPD Idle Timeout"
 msgstr ""
 
 msgid "DS-Lite AFTR address"
-msgstr ""
+msgstr "DS-Lite AFTR地址"
 
 msgid "DSL"
 msgstr ""
@@ -831,6 +834,9 @@ msgstr ""
 
 msgid "Disable HW-Beacon timer"
 msgstr "停用 HW-Beacon 计时器"
+
+msgid "disabled"
+msgstr "禁用"
 
 msgid "Disabled"
 msgstr "禁用"
@@ -1026,7 +1032,7 @@ msgid ""
 msgstr "地址租期，最小2分钟(<code>2m</code>)。"
 
 msgid "External"
-msgstr ""
+msgstr "外部"
 
 msgid "External system log server"
 msgstr "远程log服务器"
@@ -1110,6 +1116,9 @@ msgstr "刷新操作"
 msgid "Flashing..."
 msgstr "刷写中..."
 
+msgid "force"
+msgstr "强制"
+
 msgid "Force"
 msgstr "强制开启DHCP"
 
@@ -1129,7 +1138,7 @@ msgid "Force use of NAT-T"
 msgstr ""
 
 msgid "Form token mismatch"
-msgstr ""
+msgstr "表单令牌不匹配"
 
 msgid "Forward DHCP traffic"
 msgstr "转发DHCP数据包"
@@ -1174,7 +1183,7 @@ msgid "General Setup"
 msgstr "基本设置"
 
 msgid "General options for opkg"
-msgstr "opkg基础配置"
+msgstr "OPKG基础配置"
 
 msgid "Generate Config"
 msgstr "生成配置"
@@ -1186,7 +1195,7 @@ msgid "Generic 802.11%s Wireless Controller"
 msgstr "Generic 802.11%s 无线网卡"
 
 msgid "Given password confirmation did not match, password not changed!"
-msgstr "由于密码验证不匹配，密码没有更改！"
+msgstr "由于确认密码不匹配，密码没有更改！"
 
 msgid "Global Settings"
 msgstr "全局设置"
@@ -1334,7 +1343,7 @@ msgid "IPv6 address delegated to the local tunnel endpoint (optional)"
 msgstr "绑定到本地隧道终点的IPv6地址(可选)"
 
 msgid "IPv6 assignment hint"
-msgstr ""
+msgstr "IPv6分配提示"
 
 msgid "IPv6 assignment length"
 msgstr "IPv6分配长度"
@@ -1416,7 +1425,7 @@ msgstr "入口"
 msgid ""
 "In order to prevent unauthorized access to the system, your request has been "
 "blocked. Click \"Continue »\" below to return to the previous page."
-msgstr ""
+msgstr "为了防止未经授权访问系统，您的请求已被阻止。点击下面的\"继续 »\"返回上一页"
 
 msgid "Inactivity timeout"
 msgstr "活动超时"
@@ -1479,7 +1488,7 @@ msgid "Interfaces"
 msgstr "接口"
 
 msgid "Internal"
-msgstr ""
+msgstr "内部"
 
 msgid "Internal Server Error"
 msgstr "内部服务器错误"
@@ -1560,7 +1569,7 @@ msgid "Latency"
 msgstr ""
 
 msgid "Leaf"
-msgstr "叶子"
+msgstr "叶状"
 
 msgid "Lease time"
 msgstr ""
@@ -1596,7 +1605,7 @@ msgid "Limit listening to these interfaces, and loopback."
 msgstr ""
 
 msgid "Line Attenuation (LATN)"
-msgstr ""
+msgstr "线路衰减 (LATN)"
 
 msgid "Line Mode"
 msgstr ""
@@ -1740,7 +1749,7 @@ msgid ""
 msgstr "请确认你已经复制过整个根文件系统,例如使用以下命令:"
 
 msgid "Manual"
-msgstr ""
+msgstr "手动"
 
 msgid "Max. Attainable Data Rate (ATTNDR)"
 msgstr ""
@@ -1867,7 +1876,7 @@ msgid "NAT-T Mode"
 msgstr ""
 
 msgid "NAT64 Prefix"
-msgstr ""
+msgstr "NAT64前缀"
 
 msgid "NDP-Proxy"
 msgstr "NDP-代理"
@@ -1919,6 +1928,9 @@ msgstr ""
 
 msgid "No chains in this table"
 msgstr "本表中没有链"
+
+msgid "No Encryption"
+msgstr "无加密"
 
 msgid "No files found"
 msgstr "未找到文件"
@@ -2124,10 +2136,10 @@ msgid "PPtP"
 msgstr "PPtP"
 
 msgid "PSID offset"
-msgstr ""
+msgstr "PSID偏移量"
 
 msgid "PSID-bits length"
-msgstr ""
+msgstr "PSID-位长度"
 
 msgid "PTM/EFM (Packet Transfer Mode)"
 msgstr ""
@@ -2276,7 +2288,7 @@ msgid "Pseudo Ad-Hoc (ahdemo)"
 msgstr "伪装Ad-Hoc(ahdemo)"
 
 msgid "Public prefix routed to this device for distribution to clients."
-msgstr ""
+msgstr "此设备分发给客户端的公共路由前缀。"
 
 msgid "Quality"
 msgstr "质量"
@@ -2485,10 +2497,10 @@ msgid "Root preparation"
 msgstr ""
 
 msgid "Routed IPv6 prefix for downstream interfaces"
-msgstr ""
+msgstr "下游接口的IPv6路由前缀"
 
 msgid "Router Advertisement-Service"
-msgstr ""
+msgstr "路由器广告服务"
 
 msgid "Router Password"
 msgstr "主机密码"
@@ -2632,7 +2644,7 @@ msgid "Size"
 msgstr "大小"
 
 msgid "Size (.ipk)"
-msgstr ""
+msgstr "大小(.ipk)"
 
 msgid "Skip"
 msgstr "跳过"
@@ -2924,7 +2936,7 @@ msgid "The selected protocol needs a device assigned"
 msgstr "所选的协议需要分配设备"
 
 msgid "The submitted security token is invalid or already expired!"
-msgstr ""
+msgstr "提交的安全令牌无效或已过期!"
 
 msgid ""
 "The system is erasing the configuration partition now and will reboot itself "
@@ -2943,7 +2955,7 @@ msgstr ""
 msgid ""
 "The tunnel end-point is behind NAT, defaults to disabled and only applies to "
 "AYIYA"
-msgstr ""
+msgstr "隧道终点在NAT后面，默认为禁用和仅适用于AYIYA"
 
 msgid ""
 "The uploaded image file does not contain a supported format. Make sure that "
@@ -2979,7 +2991,9 @@ msgid ""
 "This file may contain lines like 'server=/domain/1.2.3.4' or "
 "'server=1.2.3.4' fordomain-specific or full upstream <abbr title=\"Domain "
 "Name System\">DNS</abbr> servers."
-msgstr ""
+msgstr "此文件应该包含行类似于'server=/domain/1.2.3.4'或'server=1.2.3.4'"
+"来解析特定域名或指定上游<abbr title=\"Domain "
+"Name System\">DNS</abbr>服务器"
 
 msgid ""
 "This is a list of shell glob patterns for matching files and directories to "
@@ -3016,7 +3030,7 @@ msgstr "登录账户时填写的用户名"
 
 msgid ""
 "This is the prefix routed to you by the tunnel broker for use by clients"
-msgstr ""
+msgstr "此为隧道代理人提供给你使用的客户端路由前缀"
 
 msgid "This is the system crontab in which scheduled tasks can be defined."
 msgstr "自定义系统crontab中的计划任务。"
@@ -3085,6 +3099,9 @@ msgstr "触发"
 
 msgid "Trigger Mode"
 msgstr "触发模式"
+
+msgid "try"
+msgstr "尝试"
 
 msgid "Tunnel ID"
 msgstr "隧道ID"
@@ -3198,7 +3215,7 @@ msgid "Use broadcast flag"
 msgstr "使用广播标签"
 
 msgid "Use builtin IPv6-management"
-msgstr ""
+msgstr "使用内置的IPv6管理器"
 
 msgid "Use custom DNS servers"
 msgstr "使用自定义的DNS服务器"
@@ -3274,10 +3291,10 @@ msgid "Vendor Class to send when requesting DHCP"
 msgstr "请求DHCP时发送的Vendor Class"
 
 msgid "Verbose"
-msgstr ""
+msgstr "详细"
 
 msgid "Verbose logging by aiccu daemon"
-msgstr ""
+msgstr "aiccu守护进程的详细日志记录"
 
 msgid "Verify"
 msgstr "验证"
@@ -3293,6 +3310,9 @@ msgstr "WEP开放认证"
 
 msgid "WEP Shared Key"
 msgstr "WEP共享密钥"
+
+msgid "WPA-PSK/WPA2-PSK Mixed Mode"
+msgstr "WPA-PSK/WPA2-PSK混合模式"
 
 msgid "WEP passphrase"
 msgstr "WEP密钥"
@@ -3321,7 +3341,7 @@ msgid "Waiting for command to complete..."
 msgstr "正在执行命令..."
 
 msgid "Waiting for device..."
-msgstr "等待设备..."
+msgstr "等待设备响应..."
 
 msgid "Warning"
 msgstr "警告"
@@ -3330,7 +3350,7 @@ msgid "Warning: There are unsaved changes that will get lost on reboot!"
 msgstr "警告：有一些未保存的配置将在重启后丢失！"
 
 msgid "Whether to create an IPv6 default route over the tunnel"
-msgstr ""
+msgstr "是否要创建通过隧道的IPv6默认路由"
 
 msgid "Whether to route only packets from delegated prefixes"
 msgstr ""
@@ -3494,7 +3514,7 @@ msgid "none"
 msgstr "无"
 
 msgid "not present"
-msgstr ""
+msgstr "不存在"
 
 msgid "off"
 msgstr "关"
@@ -3506,7 +3526,7 @@ msgid "open"
 msgstr "开放式"
 
 msgid "overlay"
-msgstr ""
+msgstr "覆盖"
 
 msgid "relay mode"
 msgstr "中继模式"
