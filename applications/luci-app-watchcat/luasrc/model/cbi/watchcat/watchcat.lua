@@ -14,8 +14,8 @@ s.addremove = true
 mode = s:option(ListValue, "mode",
 		translate("Operating mode"))
 mode.default = "allways"
-mode:value("ping", "Reboot on internet connection lost")
-mode:value("allways", "Periodic reboot")
+mode:value("ping", translate("Reboot on internet connection lost"))
+mode:value("allways", translate("Periodic reboot"))
 
 forcedelay = s:option(Value, "forcedelay",
 		      translate("Forced reboot delay"),

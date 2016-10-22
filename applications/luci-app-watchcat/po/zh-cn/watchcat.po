@@ -40,11 +40,17 @@ msgstr "操作模式"
 msgid "Period"
 msgstr "周期"
 
+msgid "Periodic reboot"
+msgstr "周期重启"
+
 msgid "Ping host"
 msgstr "ping主机"
 
 msgid "Ping period"
 msgstr "ping周期"
+
+msgid "Reboot on internet connection lost"
+msgstr "网络连接丢失时重启"
 
 msgid "Watchcat"
 msgstr "WatchCat"
@@ -53,7 +59,7 @@ msgstr "WatchCat"
 msgid ""
 "Watchcat allows configuring a periodic reboot when the Internet connection "
 "has been lost for a certain period of time."
-msgstr "WatchCat允许设置周期性的重启 和/或者 当网络连接断开达规定时间。"
+msgstr "WatchCat允许设置周期性的重启或者当网络连接断开达规定时间时重启。"
 
 #, fuzzy
 msgid ""
