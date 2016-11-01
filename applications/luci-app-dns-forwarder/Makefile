@@ -6,7 +6,7 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=uci-app-dns-forwarder
+PKG_NAME:=luci-app-dns-forwarder
 PKG_VERSION:=1.6.0
 PKG_RELEASE:=1
 
