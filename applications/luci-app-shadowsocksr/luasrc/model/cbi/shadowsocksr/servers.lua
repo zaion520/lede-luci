@@ -10,6 +10,7 @@ m = Map(shadowsocksr, "%s - %s" %{translate("ShadowsocksR"), translate("Servers 
 s = m:section(TypedSection, "servers")
 s.anonymous = true
 s.addremove = true
+s.sortable = true
 s.template = "cbi/tblsection"
 s.extedit = luci.dispatcher.build_url("admin/services/shadowsocksr/servers/%s")
 function s.create(...)
