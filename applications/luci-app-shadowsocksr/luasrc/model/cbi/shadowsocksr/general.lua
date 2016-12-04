@@ -34,7 +34,9 @@ local function get_status(name)
 end
 
 uci:foreach(shadowsocksr, "servers", function(s)
-	servers[#servers+1] = {name = s[".name"], alias = s.alias or "%s:%s" %{s.server, s.server_port}}
+	if s.server and s.server_port then
+ 		servers[#servers+1] = {name = s[".name"], alias = s.alias or "%s:%s" %{s.server, s.server_port}}
+ 	end
 end)
 
 m = Map(shadowsocksr, "%s - %s" %{translate("ShadowsocksR"), translate("General Settings")})

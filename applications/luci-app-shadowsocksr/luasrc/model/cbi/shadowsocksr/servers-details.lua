@@ -58,7 +58,7 @@ end
 -- [[ Servers Details ]]--
 s = m:section(NamedSection, sid, "servers")
 s.anonymous = true
-s.addremove   = false
+s.addremove = false
 
 o = s:option(Value, "alias", translate("Alias(optional)"))
 o.rmempty = true
