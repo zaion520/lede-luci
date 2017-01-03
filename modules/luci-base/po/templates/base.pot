@@ -3525,6 +3525,16 @@ msgstr ""
 msgid "input"
 msgstr ""
 
+msgid "IP list for DNS Filter"
+msgstr ""
+
+msgid ""
+"IP list for dnsmasq to select a server.By using this, dnsmasq will "
+"only forward the reply from servers in this list if the replied ip "
+"is in the list.Or it will forward the reply from other servers.<br />"
+"Leave empty to disable this feature."
+msgstr ""
+
 msgid "kB"
 msgstr ""
 
@@ -3576,6 +3586,11 @@ msgstr ""
 msgid "server mode"
 msgstr ""
 
+msgid ""
+"Setting this flag forces dnsmasq to send all queries to all available servers. "
+"The reply from the server which answers first will be returned to the original requester."
+msgstr ""
+
 msgid "skiplink1 Skip to navigation"
 msgstr ""
 
@@ -3607,6 +3622,9 @@ msgid "unspecified -or- create:"
 msgstr ""
 
 msgid "untagged"
+msgstr ""
+
+msgid "Use all servers"
 msgstr ""
 
 msgid "yes"
