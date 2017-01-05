@@ -28,16 +28,31 @@ msgstr ""
 msgid "Enable"
 msgstr ""
 
-msgid "Enable logging"
+msgid "Enable Wifi Schedule"
 msgstr ""
 
-msgid "Enable Wifi Schedule"
+msgid "Enable logging"
 msgstr ""
 
 msgid "Force disabling wifi even if stations associated"
 msgstr ""
 
-msgid "Unload Modules (experimental; saves more power)"
+msgid "Friday"
+msgstr ""
+
+msgid "Global Settings"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Schedule"
+msgstr ""
+
+msgid "Schedule events"
 msgstr ""
 
 msgid "Start Time"
@@ -50,6 +65,30 @@ msgid "Stop Time"
 msgstr ""
 
 msgid "Stop WiFi"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "The value '"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Unload Modules (experimental; saves more power)"
+msgstr ""
+
+msgid "View Cron Jobs"
+msgstr ""
+
+msgid "View Logfile"
+msgstr ""
+
+msgid "Wednesday"
 msgstr ""
 
 msgid "Wifi Schedule"
