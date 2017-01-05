@@ -1,3 +1,11 @@
 [submodule "applications/luci-app-kcptun"]
 	path = applications/luci-app-kcptun
 	url = https://github.com/kuoruan/luci-app-kcptun.git
+[submodule "applications/luci-app-shadowsocksr"]
+	path = applications/luci-app-shadowsocksr
+	url = https://github.com/kuoruan/luci-app-shadowsocksr
+	branch = master
+[submodule "applications/luci-app-shadowsocks"]
+	path = applications/luci-app-shadowsocks
+	url = https://github.com/kuoruan/luci-app-shadowsocksr.git
+	branch = original
