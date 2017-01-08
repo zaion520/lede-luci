@@ -117,27 +117,6 @@ ifeq ($(PKG_NAME),luci-base)
 	   tristate "$(shell echo '$(LUCI_LANG.$(lang))' | sed -e 's/^.* (\(.*\))$$/\1/') ($(lang))")
 
    endmenu
-
-   choice
-	prompt "Default Language"
-	default LUCI_DEFAULT_LANG_auto
-
-     config LUCI_DEFAULT_LANG_auto
-	   bool "Auto"$(foreach lang,$(LUCI_LANGUAGES),
-
-     config LUCI_DEFAULT_LANG_$(lang)
-	   bool "$(shell echo '$(LUCI_LANG.$(lang))' | sed -e 's/^.* (\(.*\))$$/\1/') ($(lang))"
-	   select LUCI_LANG_$(lang))
-
-   endchoice
- endef
-
- define Package/luci-base/postinst
-	#!/bin/sh
-	uci batch <<-EOF$(foreach lang,$(LUCI_LANGUAGES),$(if $(CONFIG_LUCI_DEFAULT_LANG_$(lang)),
-		set luci.main.lang=$(lang)))
-		commit luci
-	EOF
  endef
 endif
 
