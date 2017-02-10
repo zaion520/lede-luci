@@ -43,6 +43,9 @@ msgstr ""
 msgid "-- match by label --"
 msgstr ""
 
+msgid "-- match by uuid --"
+msgstr ""
+
 msgid "1 Minute Load:"
 msgstr ""
 
@@ -277,9 +280,6 @@ msgid ""
 msgstr ""
 
 msgid "Always announce default router"
-msgstr ""
-
-msgid "An additional network will be created if you leave this checked."
 msgstr ""
 
 msgid "Annex"
@@ -560,6 +560,9 @@ msgid "Check"
 msgstr ""
 
 msgid "Check fileystems before mount"
+msgstr ""
+
+msgid "Check this option to delete the existing networks from this radio."
 msgstr ""
 
 msgid "Checksum"
@@ -1293,6 +1296,9 @@ msgstr ""
 msgid "IKE DH Group"
 msgstr ""
 
+msgid "IP Addresses"
+msgstr ""
+
 msgid "IP address"
 msgstr "Alamat IP"
 
@@ -1384,6 +1390,9 @@ msgid "IPv6 routed prefix"
 msgstr ""
 
 msgid "IPv6-Address"
+msgstr ""
+
+msgid "IPv6-PD"
 msgstr ""
 
 msgid "IPv6-in-IPv4 (RFC4213)"
@@ -2318,6 +2327,9 @@ msgstr ""
 msgid "Pre-emtive CRC errors (CRCP_P)"
 msgstr ""
 
+msgid "Prefix Delegated"
+msgstr ""
+
 msgid "Preshared Key"
 msgstr ""
 
@@ -2480,6 +2492,9 @@ msgstr "Menerima"
 
 msgid "Receiver Antenna"
 msgstr "Antena Penerima"
+
+msgid "Recommended. IP addresses of the WireGuard interface."
+msgstr ""
 
 msgid "Reconnect this interface"
 msgstr ""
@@ -3252,6 +3267,9 @@ msgid "UMTS/GPRS/EV-DO"
 msgstr ""
 
 msgid "USB Device"
+msgstr ""
+
+msgid "USB Ports"
 msgstr ""
 
 msgid "UUID"

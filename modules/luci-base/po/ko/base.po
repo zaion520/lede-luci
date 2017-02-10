@@ -43,6 +43,9 @@ msgstr ""
 msgid "-- match by label --"
 msgstr ""
 
+msgid "-- match by uuid --"
+msgstr ""
+
 msgid "1 Minute Load:"
 msgstr "1 분 부하:"
 
@@ -282,9 +285,6 @@ msgid ""
 msgstr ""
 
 msgid "Always announce default router"
-msgstr ""
-
-msgid "An additional network will be created if you leave this checked."
 msgstr ""
 
 msgid "Annex"
@@ -570,6 +570,9 @@ msgid "Check"
 msgstr ""
 
 msgid "Check fileystems before mount"
+msgstr ""
+
+msgid "Check this option to delete the existing networks from this radio."
 msgstr ""
 
 msgid "Checksum"
@@ -1244,7 +1247,7 @@ msgid "Global network options"
 msgstr ""
 
 msgid "Go to password configuration..."
-msgstr ""
+msgstr "암호 설정 하기"
 
 msgid "Go to relevant configuration page"
 msgstr ""
@@ -1320,6 +1323,9 @@ msgid "Hybrid"
 msgstr ""
 
 msgid "IKE DH Group"
+msgstr ""
+
+msgid "IP Addresses"
 msgstr ""
 
 msgid "IP address"
@@ -1414,6 +1420,9 @@ msgstr ""
 
 msgid "IPv6-Address"
 msgstr "IPv6-주소"
+
+msgid "IPv6-PD"
+msgstr ""
 
 msgid "IPv6-in-IPv4 (RFC4213)"
 msgstr ""
@@ -2000,7 +2009,7 @@ msgid "No package lists available"
 msgstr ""
 
 msgid "No password set!"
-msgstr ""
+msgstr "암호 설정을 해주세요!"
 
 msgid "No rules in this chain"
 msgstr ""
@@ -2339,6 +2348,9 @@ msgstr ""
 msgid "Pre-emtive CRC errors (CRCP_P)"
 msgstr ""
 
+msgid "Prefix Delegated"
+msgstr ""
+
 msgid "Preshared Key"
 msgstr ""
 
@@ -2503,6 +2515,9 @@ msgid "Receive"
 msgstr ""
 
 msgid "Receiver Antenna"
+msgstr ""
+
+msgid "Recommended. IP addresses of the WireGuard interface."
 msgstr ""
 
 msgid "Reconnect this interface"
@@ -2734,7 +2749,7 @@ msgid "Service Type"
 msgstr ""
 
 msgid "Services"
-msgstr "Services"
+msgstr "서비스"
 
 msgid "Set up Time Synchronization"
 msgstr ""
@@ -3120,6 +3135,8 @@ msgid ""
 "There is no password set on this router. Please configure a root password to "
 "protect the web interface and enable SSH."
 msgstr ""
+"이 공유기에 암호 설정이 되지 않았습니다. 웹 UI 와 SSH 부분을 보호하기 위해서 "
+"꼭 root 암호를 설정해 주세요."
 
 msgid "This IPv4 address of the relay"
 msgstr ""
@@ -3276,6 +3293,9 @@ msgid "UMTS/GPRS/EV-DO"
 msgstr ""
 
 msgid "USB Device"
+msgstr ""
+
+msgid "USB Ports"
 msgstr ""
 
 msgid "UUID"

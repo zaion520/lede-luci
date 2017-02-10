@@ -41,6 +41,9 @@ msgstr ""
 msgid "-- match by label --"
 msgstr ""
 
+msgid "-- match by uuid --"
+msgstr ""
+
 msgid "1 Minute Load:"
 msgstr "Zatížení za 1 minutu:"
 
@@ -290,9 +293,6 @@ msgid ""
 msgstr ""
 
 msgid "Always announce default router"
-msgstr ""
-
-msgid "An additional network will be created if you leave this checked."
 msgstr ""
 
 msgid "Annex"
@@ -576,6 +576,9 @@ msgid "Check"
 msgstr "Kontrola"
 
 msgid "Check fileystems before mount"
+msgstr ""
+
+msgid "Check this option to delete the existing networks from this radio."
 msgstr ""
 
 msgid "Checksum"
@@ -1336,6 +1339,9 @@ msgstr ""
 msgid "IKE DH Group"
 msgstr ""
 
+msgid "IP Addresses"
+msgstr ""
+
 msgid "IP address"
 msgstr "IP adresy"
 
@@ -1428,6 +1434,9 @@ msgstr ""
 
 msgid "IPv6-Address"
 msgstr "IPv6 adresa"
+
+msgid "IPv6-PD"
+msgstr ""
 
 msgid "IPv6-in-IPv4 (RFC4213)"
 msgstr "IPv6-in-IPv4 (RFC4213)"
@@ -2372,6 +2381,9 @@ msgstr ""
 msgid "Pre-emtive CRC errors (CRCP_P)"
 msgstr ""
 
+msgid "Prefix Delegated"
+msgstr ""
+
 msgid "Preshared Key"
 msgstr ""
 
@@ -2550,6 +2562,9 @@ msgstr "Přijmout"
 
 msgid "Receiver Antenna"
 msgstr "Přijímací anténa"
+
+msgid "Recommended. IP addresses of the WireGuard interface."
+msgstr ""
 
 msgid "Reconnect this interface"
 msgstr "Přepojit toto rozhraní"
@@ -3361,6 +3376,9 @@ msgstr "UMTS/GPRS/EV-DO"
 
 msgid "USB Device"
 msgstr "USB zařízení"
+
+msgid "USB Ports"
+msgstr ""
 
 msgid "UUID"
 msgstr "UUID"

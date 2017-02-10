@@ -43,6 +43,9 @@ msgstr "-- 根据设备匹配 --"
 msgid "-- match by label --"
 msgstr "-- 根据标签匹配 --"
 
+msgid "-- match by uuid --"
+msgstr ""
+
 msgid "1 Minute Load:"
 msgstr "1分钟负载:"
 
@@ -283,9 +286,6 @@ msgstr ""
 
 msgid "Always announce default router"
 msgstr "总是广播默认路由"
-
-msgid "An additional network will be created if you leave this checked."
-msgstr "如果选中此复选框，则会创建一个附加网络。"
 
 msgid "Annex"
 msgstr "Annex"
@@ -571,6 +571,9 @@ msgstr "检查"
 
 msgid "Check fileystems before mount"
 msgstr "在挂载前检查文件系统"
+
+msgid "Check this option to delete the existing networks from this radio."
+msgstr ""
 
 msgid "Checksum"
 msgstr "校验值"
@@ -1309,6 +1312,9 @@ msgstr "混合"
 msgid "IKE DH Group"
 msgstr "IKE DH组"
 
+msgid "IP Addresses"
+msgstr ""
+
 msgid "IP address"
 msgstr "IP地址"
 
@@ -1401,6 +1407,9 @@ msgstr "IPv6路由前缀"
 
 msgid "IPv6-Address"
 msgstr "IPv6-地址"
+
+msgid "IPv6-PD"
+msgstr ""
 
 msgid "IPv6-in-IPv4 (RFC4213)"
 msgstr "IPv6-in-IPv4 (RFC4213)"
@@ -2324,6 +2333,9 @@ msgstr "电源管理模式"
 msgid "Pre-emtive CRC errors (CRCP_P)"
 msgstr "抢占式CRC错误(CRCP_P)"
 
+msgid "Prefix Delegated"
+msgstr ""
+
 msgid "Preshared Key"
 msgstr "预共享密钥"
 
@@ -2494,6 +2506,9 @@ msgstr "接收"
 
 msgid "Receiver Antenna"
 msgstr "接收天线"
+
+msgid "Recommended. IP addresses of the WireGuard interface."
+msgstr ""
 
 msgid "Reconnect this interface"
 msgstr "重连此接口"
@@ -3272,6 +3287,9 @@ msgstr "UMTS/GPRS/EV-DO"
 msgid "USB Device"
 msgstr "USB设备"
 
+msgid "USB Ports"
+msgstr ""
+
 msgid "UUID"
 msgstr "UUID"
 
@@ -3729,6 +3747,9 @@ msgstr "是"
 
 msgid "« Back"
 msgstr "« 后退"
+
+#~ msgid "An additional network will be created if you leave this checked."
+#~ msgstr "如果选中此复选框，则会创建一个附加网络。"
 
 #~ msgid "An additional network will be created if you leave this unchecked."
 #~ msgstr "取消选中将会另外创建一个新网络，而不会覆盖当前网络设置"

@@ -41,6 +41,9 @@ msgstr ""
 msgid "-- match by label --"
 msgstr ""
 
+msgid "-- match by uuid --"
+msgstr ""
+
 msgid "1 Minute Load:"
 msgstr "1分鐘負載"
 
@@ -281,9 +284,6 @@ msgid ""
 msgstr ""
 
 msgid "Always announce default router"
-msgstr ""
-
-msgid "An additional network will be created if you leave this checked."
 msgstr ""
 
 msgid "Annex"
@@ -566,6 +566,9 @@ msgid "Check"
 msgstr "檢查"
 
 msgid "Check fileystems before mount"
+msgstr ""
+
+msgid "Check this option to delete the existing networks from this radio."
 msgstr ""
 
 msgid "Checksum"
@@ -1309,6 +1312,9 @@ msgstr ""
 msgid "IKE DH Group"
 msgstr ""
 
+msgid "IP Addresses"
+msgstr ""
+
 msgid "IP address"
 msgstr "IP位址"
 
@@ -1401,6 +1407,9 @@ msgstr ""
 
 msgid "IPv6-Address"
 msgstr "IPv6-位址"
+
+msgid "IPv6-PD"
+msgstr ""
 
 msgid "IPv6-in-IPv4 (RFC4213)"
 msgstr "IPv6包覆在IPv4內(RFC4213)"
@@ -2326,6 +2335,9 @@ msgstr ""
 msgid "Pre-emtive CRC errors (CRCP_P)"
 msgstr ""
 
+msgid "Prefix Delegated"
+msgstr ""
+
 msgid "Preshared Key"
 msgstr ""
 
@@ -2498,6 +2510,9 @@ msgstr "接收"
 
 msgid "Receiver Antenna"
 msgstr "接收天線"
+
+msgid "Recommended. IP addresses of the WireGuard interface."
+msgstr ""
 
 msgid "Reconnect this interface"
 msgstr "重新連接這個介面"
@@ -3283,6 +3298,9 @@ msgstr "UMTS/GPRS/EV-DO"
 
 msgid "USB Device"
 msgstr "USB設備"
+
+msgid "USB Ports"
+msgstr ""
 
 msgid "UUID"
 msgstr "設備通用唯一識別碼UUID"

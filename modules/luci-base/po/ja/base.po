@@ -1,17 +1,17 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:40+0200\n"
-"PO-Revision-Date: 2016-12-16 15:23+0900\n"
-"Last-Translator: musashino205 <musashino.open@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-01-30 02:40+0900\n"
+"Last-Translator: INAGAKI Hiroshi <musashino.open@gmail.com>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.11\n"
+"Language-Team: \n"
 
 msgid "%s is untagged in multiple VLANs!"
 msgstr "%s は複数のVLANにUntaggedしています!"
@@ -42,6 +42,9 @@ msgstr "-- デバイスで設定 --"
 
 msgid "-- match by label --"
 msgstr "-- ラベルで設定 --"
+
+msgid "-- match by uuid --"
+msgstr "-- UUIDで設定 --"
 
 msgid "1 Minute Load:"
 msgstr "過去1分の負荷:"
@@ -133,7 +136,7 @@ msgid "A43C + J43 + A43 + V43"
 msgstr ""
 
 msgid "ADSL"
-msgstr ""
+msgstr "ADSL"
 
 msgid "AICCU (SIXXS)"
 msgstr ""
@@ -225,7 +228,7 @@ msgid "Additional Hosts files"
 msgstr "追加のホストファイル"
 
 msgid "Additional servers file"
-msgstr ""
+msgstr "追加のサーバー ファイル"
 
 msgid "Address"
 msgstr "アドレス"
@@ -280,7 +283,7 @@ msgid ""
 msgstr ""
 
 msgid "Allowed IPs"
-msgstr ""
+msgstr "許可されるIP"
 
 msgid ""
 "Also see <a href=\"https://www.sixxs.net/faq/connectivity/?faq=comparison"
@@ -289,9 +292,6 @@ msgstr ""
 
 msgid "Always announce default router"
 msgstr "常にデフォルト ルーターとして通知する"
-
-msgid "An additional network will be created if you leave this checked."
-msgstr ""
 
 msgid "Annex"
 msgstr ""
@@ -394,7 +394,7 @@ msgid "Atheros 802.11%s Wireless Controller"
 msgstr "Atheros 802.11%s 無線LANコントローラ"
 
 msgid "Auth Group"
-msgstr ""
+msgstr "認証グループ"
 
 msgid "AuthGroup"
 msgstr ""
@@ -580,6 +580,10 @@ msgstr "チェック"
 
 msgid "Check fileystems before mount"
 msgstr "マウント前にファイルシステムをチェックする"
+
+msgid "Check this option to delete the existing networks from this radio."
+msgstr ""
+"この無線から既存のネットワークを削除する場合、このオプションを有効にします。"
 
 msgid "Checksum"
 msgstr "チェックサム"
@@ -772,7 +776,7 @@ msgid "DS-Lite AFTR address"
 msgstr "DS-Lite AFTR アドレス"
 
 msgid "DSL"
-msgstr ""
+msgstr "DSL"
 
 msgid "DSL Status"
 msgstr ""
@@ -799,7 +803,7 @@ msgid "Default is stateless + stateful"
 msgstr "デフォルトは ステートレス + ステートフル です。"
 
 msgid "Default route"
-msgstr ""
+msgstr "デフォルト ルート"
 
 msgid "Default state"
 msgstr "標準状態"
@@ -865,7 +869,7 @@ msgid "Disable DNS setup"
 msgstr "DNSセットアップを無効にする"
 
 msgid "Disable Encryption"
-msgstr ""
+msgstr "暗号化を無効にする"
 
 msgid "Disable HW-Beacon timer"
 msgstr "HWビーコンタイマーを無効にする"
@@ -998,7 +1002,7 @@ msgid "Enable HE.net dynamic endpoint update"
 msgstr "HE.netの動的endpoint更新を有効にします"
 
 msgid "Enable IPv6 negotiation"
-msgstr ""
+msgstr "IPv6 ネゴシエーションの有効化"
 
 msgid "Enable IPv6 negotiation on the PPP link"
 msgstr "PPPリンクのIPv6ネゴシエーションを有効にする"
@@ -1010,7 +1014,7 @@ msgid "Enable NTP client"
 msgstr "NTPクライアント機能を有効にする"
 
 msgid "Enable Single DES"
-msgstr ""
+msgstr "シングルDESの有効化"
 
 msgid "Enable TFTP server"
 msgstr "TFTPサーバーを有効にする"
@@ -1019,7 +1023,7 @@ msgid "Enable VLAN functionality"
 msgstr "VLAN機能を有効にする"
 
 msgid "Enable WPS pushbutton, requires WPA(2)-PSK"
-msgstr ""
+msgstr "WPS プッシュボタンを有効化するには、WPA(2)-PSKが必要です。"
 
 msgid "Enable learning and aging"
 msgstr "ラーニング・エイジング機能を有効にする"
@@ -1055,10 +1059,10 @@ msgid "Encryption"
 msgstr "暗号化モード"
 
 msgid "Endpoint Host"
-msgstr ""
+msgstr "エンドポイント ホスト"
 
 msgid "Endpoint Port"
-msgstr ""
+msgstr "エンドポイント ポート"
 
 msgid "Erasing..."
 msgstr "消去中..."
@@ -1084,7 +1088,6 @@ msgstr "拡張ホスト設定"
 msgid "Expires"
 msgstr "期限切れ"
 
-#, fuzzy
 msgid ""
 "Expiry time of leased addresses, minimum is 2 minutes (<code>2m</code>)."
 msgstr ""
@@ -1193,7 +1196,7 @@ msgid "Force TKIP and CCMP (AES)"
 msgstr "TKIP 及びCCMP (AES) を使用"
 
 msgid "Force use of NAT-T"
-msgstr ""
+msgstr "NAT-Tの強制使用"
 
 msgid "Form token mismatch"
 msgstr ""
@@ -1226,6 +1229,8 @@ msgid ""
 "Further information about WireGuard interfaces and peers at <a href=\"http://"
 "wireguard.io\">wireguard.io</a>."
 msgstr ""
+"WireGuard インターフェースとピアについての詳細情報: <a href=\"http://"
+"wireguard.io\">wireguard.io</a>"
 
 msgid "GHz"
 msgstr "GHz"
@@ -1264,7 +1269,7 @@ msgid "Global Settings"
 msgstr "全体設定"
 
 msgid "Global network options"
-msgstr ""
+msgstr "グローバル ネットワークオプション"
 
 msgid "Go to password configuration..."
 msgstr "パスワード設定へ移動..."
@@ -1273,7 +1278,7 @@ msgid "Go to relevant configuration page"
 msgstr "関連する設定ページへ移動"
 
 msgid "Group Password"
-msgstr ""
+msgstr "グループ パスワード"
 
 msgid "Guest"
 msgstr "ゲスト"
@@ -1342,7 +1347,10 @@ msgid "Hybrid"
 msgstr "ハイブリッド"
 
 msgid "IKE DH Group"
-msgstr ""
+msgstr "IKE DHグループ"
+
+msgid "IP Addresses"
+msgstr "IPアドレス"
 
 msgid "IP address"
 msgstr "IPアドレス"
@@ -1363,7 +1371,7 @@ msgid "IPv4 and IPv6"
 msgstr "IPv4及びIPv6"
 
 msgid "IPv4 assignment length"
-msgstr ""
+msgstr "IPv4 割り当て長"
 
 msgid "IPv4 broadcast"
 msgstr "IPv4 ブロードキャスト"
@@ -1417,7 +1425,7 @@ msgid "IPv6 assignment hint"
 msgstr ""
 
 msgid "IPv6 assignment length"
-msgstr ""
+msgstr "IPv6 割り当て長"
 
 msgid "IPv6 gateway"
 msgstr "IPv6 ゲートウェイ"
@@ -1437,6 +1445,9 @@ msgstr ""
 msgid "IPv6-Address"
 msgstr "IPv6-アドレス"
 
+msgid "IPv6-PD"
+msgstr "IPv6-PD"
+
 msgid "IPv6-in-IPv4 (RFC4213)"
 msgstr "IPv6-in-IPv4 (RFC4213)"
 
@@ -1453,7 +1464,7 @@ msgid "If checked, 1DES is enaled"
 msgstr ""
 
 msgid "If checked, encryption is disabled"
-msgstr ""
+msgstr "チェックした場合、暗号化は無効になります。"
 
 msgid ""
 "If specified, mount the device by its UUID instead of a fixed device node"
@@ -1823,7 +1834,7 @@ msgid "MB/s"
 msgstr "MB/s"
 
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 msgid "MHz"
 msgstr "MHz"
@@ -1966,7 +1977,7 @@ msgid "NAS ID"
 msgstr "NAS ID"
 
 msgid "NAT-T Mode"
-msgstr ""
+msgstr "NAT-T モード"
 
 msgid "NAT64 Prefix"
 msgstr "NAT64 プレフィクス"
@@ -1975,13 +1986,13 @@ msgid "NDP-Proxy"
 msgstr "NDP-プロキシ"
 
 msgid "NT Domain"
-msgstr ""
+msgstr "NT ドメイン"
 
 msgid "NTP server candidates"
 msgstr "NTPサーバー候補"
 
 msgid "NTP sync time-out"
-msgstr ""
+msgstr "NTP 同期タイムアウト"
 
 msgid "Name"
 msgstr "名前"
@@ -2017,7 +2028,7 @@ msgid "No DHCP Server configured for this interface"
 msgstr "このインターフェースにはDHCPサーバーが設定されていません"
 
 msgid "No NAT-T"
-msgstr ""
+msgstr "NAT-Tを使用しない"
 
 msgid "No chains in this table"
 msgstr "チェイン内にルールがありません"
@@ -2083,7 +2094,7 @@ msgid "Note: Configuration files will be erased."
 msgstr "注意: 設定ファイルは消去されます。"
 
 msgid "Note: interface name length"
-msgstr ""
+msgstr "注意: インターフェース名の長さ"
 
 msgid "Notice"
 msgstr "注意"
@@ -2131,7 +2142,7 @@ msgid "One or more fields contain invalid values!"
 msgstr "1つ以上のフィールドに無効な値が設定されています！"
 
 msgid "One or more invalid/required values on tab"
-msgstr ""
+msgstr "タブに1つ以上の 無効/必須 の値があります。"
 
 msgid "One or more required fields have no value!"
 msgstr "1つ以上のフィールドに値が設定されていません！"
@@ -2140,7 +2151,7 @@ msgid "Open list..."
 msgstr "リストを開く"
 
 msgid "OpenConnect (CISCO AnyConnect)"
-msgstr ""
+msgstr "OpenConnect (CISCO AnyConnect)"
 
 msgid "Operating frequency"
 msgstr "動作周波数"
@@ -2158,7 +2169,7 @@ msgid "Optional, use when the SIXXS account has more than one tunnel"
 msgstr ""
 
 msgid "Optional."
-msgstr ""
+msgstr "（オプション）"
 
 msgid ""
 "Optional. Adds in an additional layer of symmetric-key cryptography for post-"
@@ -2172,20 +2183,24 @@ msgid ""
 "Optional. Host of peer. Names are resolved prior to bringing up the "
 "interface."
 msgstr ""
+"ピアのホストです。名前はインターフェースの起動前に解決されます。（オプショ"
+"ン）"
 
 msgid "Optional. Maximum Transmission Unit of tunnel interface."
-msgstr ""
+msgstr "トンネル インターフェースのMaximum Transmission Unit（オプション）"
 
 msgid "Optional. Port of peer."
-msgstr ""
+msgstr "ピアのポート（オプション）"
 
 msgid ""
 "Optional. Seconds between keep alive messages. Default is 0 (disabled). "
 "Recommended value if this device is behind a NAT is 25."
 msgstr ""
+"キープアライブ メッセージの送信間隔（秒）です。既定値: ０。このデバイスがNAT"
+"以下に存在する場合の推奨値は25です。（オプション）"
 
 msgid "Optional. UDP port used for outgoing and incoming packets."
-msgstr ""
+msgstr "発信パケットと受信パケットに使用されるUDPポート（オプション）"
 
 msgid "Options"
 msgstr "オプション"
@@ -2203,7 +2218,7 @@ msgid "Outdoor Channels"
 msgstr "屋外用周波数"
 
 msgid "Output Interface"
-msgstr ""
+msgstr "出力インターフェース"
 
 msgid "Override MAC address"
 msgstr "MACアドレスを上書きする"
@@ -2336,7 +2351,7 @@ msgid "Peer IP address to assign"
 msgstr ""
 
 msgid "Peers"
-msgstr ""
+msgstr "ピア"
 
 msgid "Perfect Forward Secrecy"
 msgstr ""
@@ -2348,7 +2363,7 @@ msgid "Perform reset"
 msgstr "設定リセットを実行"
 
 msgid "Persistent Keep Alive"
-msgstr ""
+msgstr "永続的なキープアライブ"
 
 msgid "Phy Rate:"
 msgstr "物理レート:"
@@ -2380,6 +2395,9 @@ msgstr ""
 msgid "Pre-emtive CRC errors (CRCP_P)"
 msgstr ""
 
+msgid "Prefix Delegated"
+msgstr "委任されたプレフィクス (PD)"
+
 msgid "Preshared Key"
 msgstr "事前共有鍵"
 
@@ -2409,7 +2427,7 @@ msgid "Processes"
 msgstr "プロセス"
 
 msgid "Profile"
-msgstr ""
+msgstr "プロファイル"
 
 msgid "Prot."
 msgstr "プロトコル"
@@ -2448,7 +2466,7 @@ msgid "Quality"
 msgstr "クオリティ"
 
 msgid "RFC3947 NAT-T mode"
-msgstr ""
+msgstr "RFC3947 NAT-Tモード"
 
 msgid "RTS/CTS Threshold"
 msgstr "RTS/CTS閾値"
@@ -2560,6 +2578,9 @@ msgstr "受信"
 msgid "Receiver Antenna"
 msgstr "受信アンテナ"
 
+msgid "Recommended. IP addresses of the WireGuard interface."
+msgstr "WireGuard インターフェースのIPアドレスです。（推奨）"
+
 msgid "Reconnect this interface"
 msgstr "インターフェースの再接続"
 
@@ -2588,7 +2609,7 @@ msgid "Remote IPv4 address"
 msgstr "リモートIPv4アドレス"
 
 msgid "Remote IPv4 address or FQDN"
-msgstr ""
+msgstr "リモート IPv4アドレス または FQDN"
 
 msgid "Remove"
 msgstr "削除"
@@ -2606,7 +2627,7 @@ msgid "Request IPv6-address"
 msgstr "IPv6-アドレスのリクエスト"
 
 msgid "Request IPv6-prefix of length"
-msgstr ""
+msgstr "リクエストするIPv6-プレフィクス長"
 
 msgid "Require TLS"
 msgstr "TLSが必要"
@@ -2615,7 +2636,7 @@ msgid "Required for certain ISPs, e.g. Charter with DOCSIS 3"
 msgstr "DOCSIS 3.0を使用するいくつかのISPでは必要になります"
 
 msgid "Required. Base64-encoded private key for this interface."
-msgstr ""
+msgstr "このインターフェースに使用するBase64-エンコード 秘密鍵（必須）"
 
 msgid ""
 "Required. IP addresses and prefixes that this peer is allowed to use inside "
@@ -2624,7 +2645,7 @@ msgid ""
 msgstr ""
 
 msgid "Required. Public key of peer."
-msgstr ""
+msgstr "ピアの公開鍵（必須）"
 
 msgid ""
 "Requires upstream supports DNSSEC; verify unsigned domain responses really "
@@ -2674,7 +2695,7 @@ msgid "Route Allowed IPs"
 msgstr ""
 
 msgid "Route type"
-msgstr ""
+msgstr "ルート タイプ"
 
 msgid "Routed IPv6 prefix for downstream interfaces"
 msgstr ""
@@ -2702,7 +2723,7 @@ msgid "Run filesystem check"
 msgstr "ファイルシステムチェックを行う"
 
 msgid "SHA256"
-msgstr ""
+msgstr "SHA256"
 
 msgid ""
 "SIXXS supports TIC only, for static tunnels using IP protocol 41 (RFC4213) "
@@ -2713,7 +2734,7 @@ msgid "SIXXS-handle[/Tunnel-ID]"
 msgstr ""
 
 msgid "SNR"
-msgstr ""
+msgstr "SNR"
 
 msgid "SSH Access"
 msgstr "SSHアクセス"
@@ -2803,7 +2824,7 @@ msgid "Severely Errored Seconds (SES)"
 msgstr ""
 
 msgid "Short GI"
-msgstr ""
+msgstr "Short GI"
 
 msgid "Show current backup file list"
 msgstr "現在のバックアップファイルのリストを表示する"
@@ -3028,12 +3049,11 @@ msgid "Target"
 msgstr "ターゲット"
 
 msgid "Target network"
-msgstr ""
+msgstr "対象ネットワーク"
 
 msgid "Terminate"
 msgstr "停止"
 
-#, fuzzy
 msgid ""
 "The <em>Device Configuration</em> section covers physical settings of the "
 "radio hardware such as channel, transmit power or antenna selection which "
@@ -3114,12 +3134,11 @@ msgstr "このシステムでは、現在以下のルールが有効になって
 msgid "The given network name is not unique"
 msgstr "設定されたネットワーク名はユニークなものではありません"
 
-#, fuzzy
 msgid ""
 "The hardware is not multi-SSID capable and the existing configuration will "
 "be replaced if you proceed."
 msgstr ""
-"このハードウェアではマルチESSIDを設定することができないため、続行した場合、設"
+"このハードウェアでは複数のESSIDを設定することができないため、続行した場合、設"
 "定は既存の設定と置き換えられます。"
 
 msgid ""
@@ -3153,7 +3172,6 @@ msgid ""
 "when finished."
 msgstr "システムは設定領域を消去中です。完了後、自動的に再起動します。"
 
-#, fuzzy
 msgid ""
 "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a "
 "few minutes before you try to reconnect. It might be necessary to renew the "
@@ -3336,16 +3354,16 @@ msgid "Tunnel Interface"
 msgstr "トンネルインターフェース"
 
 msgid "Tunnel Link"
-msgstr ""
+msgstr "トンネルリンク"
 
 msgid "Tunnel broker protocol"
-msgstr ""
+msgstr "トンネルブローカー プロトコル"
 
 msgid "Tunnel setup server"
-msgstr ""
+msgstr "トンネルセットアップ サーバー"
 
 msgid "Tunnel type"
-msgstr ""
+msgstr "トンネルタイプ"
 
 msgid "Turbo Mode"
 msgstr "ターボモード"
@@ -3367,6 +3385,9 @@ msgstr "UMTS/GPRS/EV-DO"
 
 msgid "USB Device"
 msgstr "USBデバイス"
+
+msgid "USB Ports"
+msgstr "USB ポート"
 
 msgid "UUID"
 msgstr "UUID"
@@ -3490,7 +3511,7 @@ msgid "VC-Mux"
 msgstr "VC-Mux"
 
 msgid "VDSL"
-msgstr ""
+msgstr "VDSL"
 
 msgid "VLANs on %q"
 msgstr "%q上のVLANs"
@@ -3499,25 +3520,25 @@ msgid "VLANs on %q (%s)"
 msgstr "%q上のVLAN (%s)"
 
 msgid "VPN Local address"
-msgstr ""
+msgstr "VPN ローカルアドレス"
 
 msgid "VPN Local port"
-msgstr ""
+msgstr "VPN ローカルポート"
 
 msgid "VPN Server"
 msgstr "VPN サーバー"
 
 msgid "VPN Server port"
-msgstr ""
+msgstr "VPN サーバーポート"
 
 msgid "VPN Server's certificate SHA1 hash"
-msgstr ""
+msgstr "VPN サーバー証明書 SHA1ハッシュ"
 
 msgid "VPNC (CISCO 3000 (and others) VPN)"
-msgstr ""
+msgstr "VPNC (CISCO 3000 (またはその他の) VPN)"
 
 msgid "Vendor"
-msgstr ""
+msgstr "ベンダー"
 
 msgid "Vendor Class to send when requesting DHCP"
 msgstr "DHCPリクエスト送信時のベンダークラスを設定"
@@ -3571,7 +3592,7 @@ msgid "Waiting for command to complete..."
 msgstr "コマンド実行中です..."
 
 msgid "Waiting for device..."
-msgstr ""
+msgstr "デバイスの起動をお待ちください..."
 
 msgid "Warning"
 msgstr "警告"
@@ -3589,7 +3610,7 @@ msgid "Width"
 msgstr "帯域幅"
 
 msgid "WireGuard VPN"
-msgstr ""
+msgstr "WireGuard VPN"
 
 msgid "Wireless"
 msgstr "無線"
@@ -3652,6 +3673,9 @@ msgid ""
 "upgrade it to at least version 7 or use another browser like Firefox, Opera "
 "or Safari."
 msgstr ""
+"Internet Explorerが古すぎるため、このページを正しく表示することができません。"
+"バージョン 7以上にアップグレードするか、FirefoxやOpera、Safariなど別のブラウ"
+"ザーを使用してください。"
 
 msgid "any"
 msgstr "全て"
@@ -3709,7 +3733,7 @@ msgid "help"
 msgstr "ヘルプ"
 
 msgid "hidden"
-msgstr ""
+msgstr "(不明)"
 
 msgid "hybrid mode"
 msgstr "ハイブリッド モード"
@@ -3718,7 +3742,7 @@ msgid "if target is a network"
 msgstr "ターゲットがネットワークの場合"
 
 msgid "input"
-msgstr ""
+msgstr "入力"
 
 msgid "kB"
 msgstr "kB"
@@ -3733,7 +3757,7 @@ msgid "local <abbr title=\"Domain Name System\">DNS</abbr> file"
 msgstr "ローカル <abbr title=\"Domain Name System\">DNS</abbr>ファイル"
 
 msgid "minimum 1280, maximum 1480"
-msgstr ""
+msgstr "最小値 1280、最大値 1480"
 
 msgid "navigation Navigation"
 msgstr ""
@@ -3757,10 +3781,10 @@ msgid "on"
 msgstr "オン"
 
 msgid "open"
-msgstr ""
+msgstr "オープン"
 
 msgid "overlay"
-msgstr ""
+msgstr "オーバーレイ"
 
 msgid "relay mode"
 msgstr "リレー モード"
