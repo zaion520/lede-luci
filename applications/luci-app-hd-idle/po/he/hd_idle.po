@@ -34,14 +34,14 @@ msgstr "הגדרות"
 msgid "h"
 msgstr "ש'"
 
-msgid "hd-idle"
+msgid "HD-idle"
 msgstr ""
 
 msgid ""
-"hd-idle is a utility program for spinning-down external disks after a period "
+"HD-idle is a utility program for spinning-down external disks after a period "
 "of idle time."
 msgstr ""
-"hd-idle הינה תוכנת שירות שמטרתה להקטין את מהירות הסיבוב של כוננים חיצוניים "
+"HD-idle הינה תוכנת שירות שמטרתה להקטין את מהירות הסיבוב של כוננים חיצוניים "
 "לאחר זמן מסוים של חוסר פעילות."
 
 # Minutes (not minimum)

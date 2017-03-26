@@ -35,14 +35,14 @@ msgstr "Sắp đặt"
 msgid "h"
 msgstr ""
 
-msgid "hd-idle"
-msgstr "hd-idle"
+msgid "HD-idle"
+msgstr "HD-idle"
 
 msgid ""
-"hd-idle is a utility program for spinning-down external disks after a period "
+"HD-idle is a utility program for spinning-down external disks after a period "
 "of idle time."
 msgstr ""
-"hd-idle là một chương trình tiện ích để quay các đĩa ngoài sau một khoảng "
+"HD-idle là một chương trình tiện ích để quay các đĩa ngoài sau một khoảng "
 "thời gian idle."
 
 # Minutes (not minimum)

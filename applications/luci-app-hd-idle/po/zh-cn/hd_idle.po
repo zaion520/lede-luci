@@ -32,11 +32,11 @@ msgstr "设置"
 msgid "h"
 msgstr "小时"
 
-msgid "hd-idle"
+msgid "HD-idle"
 msgstr "硬盘休眠"
 
 msgid ""
-"hd-idle is a utility program for spinning-down external disks after a period "
+"HD-idle is a utility program for spinning-down external disks after a period "
 "of idle time."
 msgstr "硬盘休眠是一个让硬盘在空闲一段时间后休眠的工具"
 
