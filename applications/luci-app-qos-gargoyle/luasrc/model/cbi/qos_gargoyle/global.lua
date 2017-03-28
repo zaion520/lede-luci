@@ -30,7 +30,7 @@ s = m:section(TypedSection, "global", translate("Global Settings"))
 s.anonymous = true
 
 o = s:option(Button, "_switch", nil, translate("QoS Switch"))
-o.render = function(...)
+o.render = function(self, section, scope)
 	if qos_gargoyle_enabled then
 		self.title = translate("Disable QoS")
 		self.inputstyle = "reset"
@@ -38,7 +38,7 @@ o.render = function(...)
 		self.title = translate("Enable QoS")
 		self.inputstyle = "apply"
 	end
-	Button.render(...)
+	Button.render(self, section, scope)
 end
 
 o.write = function(...)
@@ -80,6 +80,7 @@ qos_monenabled = s:option(Flag, "qos_monenabled", translate("Enable Active Conge
 	)
 qos_monenabled.enabled  = "true"
 qos_monenabled.disabled = "false"
+qos_monenabled.default  = "false"
 
 o = s:option(Value, "ptarget_ip", translate("Use non-standard ping target"),translate("Specify a custom ping target here if you want.Leave empty to use the default settings."))
 o:depends("qos_monenabled", "true")
