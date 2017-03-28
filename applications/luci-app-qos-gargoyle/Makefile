@@ -6,8 +6,8 @@
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=LuCI Support for QoS scripts by GuoGuo
-LUCI_DEPENDS:=+qos-guoguo
+LUCI_TITLE:=LuCI Support for Gargoyle QoS
+LUCI_DEPENDS:=+qos-gargoyle
 
 include ../../luci.mk
 
