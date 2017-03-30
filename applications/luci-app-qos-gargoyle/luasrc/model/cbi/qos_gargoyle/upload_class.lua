@@ -8,7 +8,7 @@ local sid = arg[1]
 local qos_gargoyle = "qos_gargoyle"
 
 m = Map(qos_gargoyle, translate("Edit Upload Service Class"))
-m.redirect = luci.dispatcher.build_url("admin/services/qos_gargoyle/upload")
+m.redirect = luci.dispatcher.build_url("admin/network/qos_gargoyle/upload")
 
 if m.uci:get(qos_gargoyle, sid) ~= "upload_class" then
 	luci.http.redirect(m.redirect)
@@ -40,16 +40,16 @@ o = s:option(Value, "min_bandwidth", translate("Minimum Bandwidth"),
 	.. "number only slightly higher than this into this field. QoS will satisfiy the minimum service "
 	.. "of all classes first before allocating to other waiting classes so be careful to use minimum "
 	.. "bandwidths sparingly."))
-o:value("0")
-o.datatype = "uinteger"
-o.rmempty = true
+o:value("", translate("None"))
+o.datatype = "and(uinteger, min(1))"
+o.rmempty  = true
 
 o = s:option(Value, "max_bandwidth", translate("Maximum Bandwidth"),
 	translate("The maximum amount of bandwidth this class will be allocated in kbit/s. Even if unused "
 	.. "bandwidth is available, this service class will never be permitted to use more than this "
 	.. "amount of bandwidth."))
 o:value("", translate("Unlimited"))
-o.datatype = "uinteger"
-o.rmempty = true
+o.datatype = "and(uinteger, min(1))"
+o.rmempty  = true
 
 return m

@@ -47,19 +47,15 @@ o.render = function(self, section, scope)
 end
 
 o.write = function(self, section, value)
-	local uw = uci:get(qos_gargoyle, "upload", "total_bandwidth");
-	local dw = uci:get(qos_gargoyle, "download", "total_bandwidth");
-	if uw and dw and tonumber(uw) > 0 and tonumber(dw) > 0 then
-		if qos_gargoyle_enabled then
-			qos_gargoyle_enabled = false
-			sys.call("/etc/init.d/qos_gargoyle stop >/dev/null")
-			sys.init.disable(qos_gargoyle)
-		else
-			qos_gargoyle_enabled = true
-			sys.call("/etc/init.d/qos_gargoyle restart >/dev/null")
-			sys.init.enable(qos_gargoyle)
-		end
-	fi
+	if qos_gargoyle_enabled then
+		qos_gargoyle_enabled = false
+		sys.call("/etc/init.d/qos_gargoyle stop >/dev/null")
+		sys.init.disable(qos_gargoyle)
+	else
+		qos_gargoyle_enabled = true
+		sys.call("/etc/init.d/qos_gargoyle restart >/dev/null")
+		sys.init.enable(qos_gargoyle)
+	end
 end
 
 s = m:section(TypedSection, "upload", translate("Upload Settings"))
@@ -77,8 +73,8 @@ o = s:option(Value, "total_bandwidth", translate("Total Upload Bandwidth"),
 	.. "which is too low will needlessly penalize your upload speed. You should use a speed test "
 	.. "program (with QoS off) to determine available upload bandwidth. Note that bandwidth is "
 	.. "specified in kbps. There are 8 kilobits per kilobyte."))
-o.rmempty  = false
 o.datatype = "uinteger"
+o.rmempty  = false
 
 s = m:section(TypedSection, "download", translate("Download Settings"))
 s.anonymous = true
@@ -93,8 +89,9 @@ o = s:option(Value, "total_bandwidth", translate("Total Download Bandwidth"),
 	translate("Specifying correctly is crucial to making QoS work. Note that bandwidth is specified "
 	.. "in kbps. There are 8 kilobits per kilobyte."))
 o.datatype = "uinteger"
+o.rmempty  = false
 
-monen = s:option(ListValue, "qos_monenabled", translate("Enable Active Congestion Control"),
+o = s:option(ListValue, "qos_monenabled", translate("Enable Active Congestion Control"),
 	translate("<p>The active congestion control (ACC) observes your download activity and "
 	.. "automatically adjusts your download link limit to maintain proper QoS performance. ACC "
 	.. "automatically compensates for changes in your ISP's download speed and the demand from your "
@@ -104,9 +101,9 @@ monen = s:option(ListValue, "qos_monenabled", translate("Enable Active Congestio
 	translate("<p>While ACC does not adjust your upload link speed you must enable and properly "
 	.. "configure your upload QoS for it to function properly.</p>")
 	)
-monen:value("true", translate("Enable"))
-monen:value("false", translate("Disable"))
-monen.default  = "false"
+o:value("true", translate("Enable"))
+o:value("false", translate("Disable"))
+o.default  = "false"
 
 o = s:option(Value, "ptarget_ip", translate("Use Non-standard Ping Target"),
 	translate("The segment of network between your router and the ping target is where congestion is "
@@ -114,7 +111,7 @@ o = s:option(Value, "ptarget_ip", translate("Use Non-standard Ping Target"),
 	.. "default ACC uses your WAN gateway as the ping target. If you know that congestion on your "
 	.. "link will occur in a different segment then you can enter an alternate ping target. Leave "
 	.. "empty to use the default settings."))
-o:depends("monen", "true")
+o:depends("qos_monenabled", "true")
 o.datatype = "ipaddr"
 
 o = s:option(Value, "pinglimit", translate("Manual Ping Limit"),
@@ -125,7 +122,7 @@ o = s:option(Value, "pinglimit", translate("Manual Ping Limit"),
 	.. "the target ping time for the minRTT mode but by entering a manual time you can control the "
 	.. "target ping time of the active mode. The time you enter becomes the increase in the target "
 	.. "ping time between minRTT and active mode. Leave empty to use the default settings."))
-o:depends("monen", "true")
+o:depends("qos_monenabled", "true")
 o.datatype = "range(100, 2000)"
 
 return m

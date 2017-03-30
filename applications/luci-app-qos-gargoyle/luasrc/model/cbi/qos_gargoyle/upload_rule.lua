@@ -23,7 +23,7 @@ local function has_ndpi()
 end
 
 m = Map(qos_gargoyle, translate("Edit Upload Classification Rule"))
-m.redirect = luci.dispatcher.build_url("admin/services/qos_gargoyle/upload")
+m.redirect = luci.dispatcher.build_url("admin/network/qos_gargoyle/upload")
 
 if m.uci:get(qos_gargoyle, sid) ~= "upload_rule" then
 	luci.http.redirect(m.redirect)
@@ -50,20 +50,25 @@ end
 o = s:option(Value, "source", translate("Source IP"),
 	translate("Packet's source ip, can optionally have /[mask] after it (see -s option in iptables "
 	.. "man page)."))
+o:value("", translate("All IPs"))
 wa.cbi_add_knownips(o)
-o.datatype = "ip4prefix"
+o.datatype = "ipmask4"
 
 o = s:option(Value, "srcport", translate("Source Port(s)"),
 	translate("Packet's source port, can be a range (eg. 80-90)."))
+o:value("", translate("All Ports"))
 o.datatype  = "or(port, portrange)"
 
 o = s:option(Value, "destination", translate("Destination IP"),
-	translate("Packet's destination ip, can optionally have /[mask] after it (see -d option in iptables man page)"))
+	translate("Packet's destination ip, can optionally have /[mask] after it (see -d option in "
+	.. "iptables man page)."))
+o:value("", translate("All IPs"))
 wa.cbi_add_knownips(o)
-o.datatype = "ip4prefix"
+o.datatype = "ipmask4"
 
 o = s:option(Value, "dstport", translate("Destination Port(s)"),
-	translate("Packet's destination port, can be a range (eg. 80-90).")
+	translate("Packet's destination port, can be a range (eg. 80-90)."))
+o:value("", translate("All Ports"))
 o.datatype  = "or(port, portrange)"
 
 o = s:option(Value, "min_pkt_size", translate("Minimum Packet Length"),
@@ -75,7 +80,7 @@ o = s:option(Value, "max_pkt_size", translate("Maximum Packet Length"),
 o.datatype = "and(uinteger, min(1))"
 
 o = s:option(Value, "connbytes_kb", translate("Connection Bytes Reach"),
-	translate("The total size of data transmitted since the establishment of the link (in MBytes)."))
+	translate("The total size of data transmitted since the establishment of the link (in Kbytes)."))
 o.datatype = "uinteger"
 
 if has_ndpi() then
