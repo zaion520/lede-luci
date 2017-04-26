@@ -3,29 +3,30 @@
 
 local fs = require("nixio.fs")
 local util = require("luci.util")
-local adbinput = "/etc/config/adblock"
+local trminput = "/etc/config/wireless"
 
-if not nixio.fs.access(adbinput) then
+if not nixio.fs.access(trminput) then
 	m = SimpleForm("error", nil, translate("Input file not found, please check your configuration."))
 	return m
 end
 
 m = SimpleForm("input", nil)
-m:append(Template("adblock/config_css"))
+m:append(Template("travelmate/config_css"))
+m.reset = false
 
 s = m:section(SimpleSection, nil,
-	translate("This form allows you to modify the content of the main adblock configuration file (/etc/config/adblock)."))
+	translate("This form allows you to modify the content of the main wireless configuration file (/etc/config/wireless)."))
 
 f = s:option(TextValue, "data")
 f.rows = 20
 f.rmempty = true
 
 function f.cfgvalue()
-	return nixio.fs.readfile(adbinput) or ""
+	return nixio.fs.readfile(trminput) or ""
 end
 
 function f.write(self, section, data)
-	return nixio.fs.writefile(adbinput, "\n" .. util.trim(data:gsub("\r\n", "\n")) .. "\n")
+	return nixio.fs.writefile(trminput, "\n" .. util.trim(data:gsub("\r\n", "\n")) .. "\n")
 end
 
 function s.handle(self, state, data)
