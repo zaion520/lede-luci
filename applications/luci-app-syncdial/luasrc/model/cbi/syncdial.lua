@@ -5,6 +5,9 @@ Copyright (C) 2015 GuoGuo <gch981213@gmail.com>
 
 local fs = require "nixio.fs"
 
+if not nixio.fs.access("/usr/bin/ip") then
+	luci.sys.call("ln -s /sbin/ip-full /usr/bin/ip")
+end
 local cmd = "mwan3 status | grep -c \"is online and tracking is active\""
 local shellpipe = io.popen(cmd,"r")
 local ifnum = shellpipe:read("*a")
